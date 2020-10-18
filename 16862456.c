@@ -4,6 +4,14 @@ int main()
     int i,m,t,s,a,b,j,x,y,z;
     scanf("%d",&t);
     scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
+    scanf("%d",&t);
     while(t--)
     {
         i=0;
