@@ -34,12 +34,6 @@ int main()
             y=(y*10)+(s%10);
             s=s/10;
         }
-        if(a<b)
-        {
-            a=a+b;
-            b=a-b;
-            a=a-b;
-        }
         while(s>0)
         {
             y=(y*10)+(s%10);
@@ -82,7 +76,7 @@ int partition (int arr[], int low, int high)
 		} 
 	} 
 	swap(&arr[i + 1], &arr[high]); 
-	return (i + 1); 
+	return (i); 
 } 
 
 arr[] --> Array to be sorted, 
@@ -108,7 +102,7 @@ void printArray(int arr[], int size)
 	int i; 
 	for (i = 0; i < size; i++) 
 		cout << arr[i] << " "; 
-	cout << endl; 
+	printf("\n");//More efficient
 } 
 
 int main() 
@@ -116,7 +110,7 @@ int main()
 	int arr[] = {10, 7, 8, 9, 1, 5}; 
 	int n = sizeof(arr) / sizeof(arr[0]); 
 	quickSort(arr, 0, n - 1); 
-	cout << "Sorted array: \n"; 
+	
 	printArray(arr, n); 
 	return 0; 
 } 
