@@ -20,5 +20,3 @@ int main(){
     printf("%s",str1);
     return 0;    
 }
-
-
