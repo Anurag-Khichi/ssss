@@ -33,6 +33,17 @@ int main()
             y=(y*10)+(s%10);
             s=s/10;
         }
+        if(a<b)
+        {
+            a=a+b;
+            b=a-b;
+            a=a-b;
+        }
+        while(s>0)
+        {
+            y=(y*10)+(s%10);
+            s=s/10;
+        }
         printf("%d\n",y);
     }
     return 0;
