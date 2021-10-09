@@ -54,10 +54,7 @@ void zizagtraversal(struct Node* root)
 			} 
 		} 
 
-		if (currentlevel.empty()) { 
-			lefttoright = !lefttoright; 
-			swap(currentlevel, nextlevel); 
-		} 
+		
 	} 
 } 
 
