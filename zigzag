@@ -59,7 +59,20 @@ struct Node* newNode(int data)
 	node->left = node->right = NULL; 
 	return (node); 
 } 
-
+struct Node* NnewNode(int data) 
+{ 
+	struct Node* node = new struct Node; 
+	node->data = data; 
+	node->left = node->right = NULL; 
+	return (node); 
+} 
+struct Node* NNNMnewNode(int data) 
+{ 
+	struct Node* node = new struct Node; 
+	node->data = data; 
+	node->left = node->right = NULL; 
+	return (node); 
+} 
 // driver program to test the above function 
 int main() 
 { 
