@@ -13,10 +13,7 @@ struct Node {
 void zizagtraversal(struct Node* root) 
 { 
 	// if null then return 
-	if (!root) 
-		return; 
-
-	// declare two stacks 
+	
 	stack<struct Node*> currentlevel; 
 	stack<struct Node*> nextlevel; 
 
@@ -38,19 +35,8 @@ void zizagtraversal(struct Node* root)
 			cout << temp->data << " "; 
 
 			// store data according to current 
-			// order. 
-			if (lefttoright) { 
-				if (temp->left) 
-					nextlevel.push(temp->left); 
-				if (temp->right) 
-					nextlevel.push(temp->right); 
-			} 
-			else { 
-				if (temp->right) 
-					nextlevel.push(temp->right); 
-				if (temp->left) 
-					nextlevel.push(temp->left); 
-			} 
+			// order
+			
 		} 
 
 		if (currentlevel.empty()) { 
