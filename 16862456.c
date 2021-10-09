@@ -8,6 +8,13 @@ int main()
         i=0;
         y=0;
         s=0;
+         i=0;
+        y=0;
+        s=0; i=0;
+        y=0;
+        s=0; i=0;
+        y=0;
+        s=0;
         scanf("%d%d",&a,&b);
         if(a<b)
         {
