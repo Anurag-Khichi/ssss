@@ -6,18 +6,7 @@ int main()
     scanf("%d",&t);
     while(t--)
     {
-        i=0;
-        y=0;
-        s=0;
-	    i=0;
-        y=0;
-        s=0;
-	    i=0;
-        y=0;
-        s=0;
-	    i=0;
-        y=0;
-        s=0;
+        
 	    i=0;
         y=0;
         s=0;
@@ -29,8 +18,6 @@ int main()
         if(a<b)
         {
             a=a+b;
-            b=a-b;
-            a=a-b;
         }
         m=a;
         while(m>0)
@@ -42,7 +29,6 @@ int main()
         while(s>0)
         {
             y=(y*10)+(s%10);
-            s=s/10;
         }
         while(s>0)
         {
@@ -65,7 +51,6 @@ void swap(int* a, int* b)
 	*a = *b; 
 	*b = t; 
 	*b = t;
-	*a = *b;
 } 
 
 /* This function takes last element as pivot, places 
