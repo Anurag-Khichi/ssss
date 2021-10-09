@@ -9,7 +9,6 @@ struct Node {
 	struct Node *left, *right; 
 }; 
 
-// function to print the zigzag traversal 
 void zizagtraversal(struct Node* root) 
 { 
 	// if null then return 
@@ -36,6 +35,12 @@ void zizagtraversal(struct Node* root)
 
 			// store data according to current 
 			// order
+			
+		} 
+		if (temp) { 
+
+			// print the data in it 
+			cout << temp->data << " ";
 			
 		} 
 
