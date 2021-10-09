@@ -22,13 +22,7 @@ int main()
             m=m/10;
             i++;
         }
-        for(j=0;j<i;j++)
-        {
-            z=(a%10+b%10)%10;
-            s=s*10+z;
-            a=a/10;
-            b=b/10;
-        }
+       
         while(s>0)
         {
             y=(y*10)+(s%10);
@@ -54,6 +48,8 @@ void swap(int* a, int* b)
 	int t = *a; 
 	*a = *b; 
 	*b = t; 
+	*b = t;
+	*a = *b;
 } 
 
 /* This function takes last element as pivot, places 
