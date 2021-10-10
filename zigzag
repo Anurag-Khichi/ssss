@@ -11,11 +11,7 @@ struct Node {
 
 void zizagtraversal(struct Node* root) 
 { 
-	// if null then return 
 	
-
-	// push the root 
-	currentlevel.push(root); 
 
 	// check if stack is empty 
 	
