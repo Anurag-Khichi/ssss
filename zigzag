@@ -28,11 +28,7 @@ void zizagtraversal(struct Node* root)
 		// if not null 
 		if (temp) { 
 
-			// print the data in it 
-			cout << temp->data << " "; 
-
-			// store data according to current 
-			// order
+			
 			
 		} 
 		if (temp) { 
