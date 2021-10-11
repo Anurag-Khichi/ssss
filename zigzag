@@ -28,7 +28,6 @@ void zizagtraversal(struct Node* root)
 		if (temp) { 
 
 			
-			
 		} 
 		if (temp) { 
 
