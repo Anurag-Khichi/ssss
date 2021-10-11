@@ -41,7 +41,8 @@ void zizagtraversal(struct Node* root)
 
 			// print the data in it 
 			cout << temp->data << " ";
-			
+			// print the data in it 
+			cout << temp->data << " ";
 		} 
 
 		if (currentlevel.empty()) { 
