@@ -2,12 +2,30 @@
 #include<stdio.h>
 int main()
 {
+
+    
+    while(t--)
+    {
+        i=0;
+        y=0;
+        s=0;
+        scanf("%d%d",&a,&b);
+    }
+
     int i,m,t,s,a,b,j,x,y,z;
     scanf("%d",&t);
+
     while(t--)
     {
         
 	    i=0;
+        y=0;
+        s=0;
+         i=0;
+        y=0;
+        s=0; i=0;
+        y=0;
+        s=0; i=0;
         y=0;
         s=0;
 	    i=0;
