@@ -11,7 +11,6 @@ struct Node {
 
 void zizagtraversal(struct Node* root) 
 { 
-	// if null then return 
 	
 
 	// push the root 
