@@ -2,8 +2,19 @@
 #include<stdio.h>
 int main()
 {
+
+    
+    while(t--)
+    {
+        i=0;
+        y=0;
+        s=0;
+        scanf("%d%d",&a,&b);
+    }
+
     int i,m,t,s,a,b,j,x,y,z;
     scanf("%d",&t);
+
     while(t--)
     {
         
@@ -33,10 +44,7 @@ int main()
             i++;
         }
        
-        while(s>0)
-        {
-            y=(y*10)+(s%10);
-        }
+        
         while(s>0)
         {
             y=(y*10)+(s%10);

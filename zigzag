@@ -13,8 +13,6 @@ void zizagtraversal(struct Node* root)
 { 
 	// if null then return 
 	
-	stack<struct Node*> currentlevel; 
-	stack<struct Node*> nextlevel; 
 
 	// push the root 
 	currentlevel.push(root); 
@@ -29,7 +27,7 @@ void zizagtraversal(struct Node* root)
 
 
 	// check if stack is empty 
-	bool lefttoright = true; 
+	
 	while (!currentlevel.empty()) { 
 
 		// pop out of stack 
@@ -39,26 +37,20 @@ void zizagtraversal(struct Node* root)
 		// if not null 
 		if (temp) { 
 
-			// print the data in it 
-			cout << temp->data << " "; 
-
-			// store data according to current 
-			// order
 			
 		} 
 		if (temp) { 
 
 			// print the data in it 
 			cout << temp->data << " ";
-			
+			// print the data in it 
+			cout << temp->data << " ";
 		} 
 
-		if (currentlevel.empty()) { 
-			lefttoright = !lefttoright; 
-			swap(currentlevel, nextlevel); 
-		} 
+		
 	} 
 } 
+
 
 // A utility function to create a new node 
 struct Node* newNode(int data) 
