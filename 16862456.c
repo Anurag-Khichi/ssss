@@ -3,7 +3,6 @@
 int main()
 {
 
-    
     while(t--)
     {
         i=0;
