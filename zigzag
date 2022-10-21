@@ -17,6 +17,7 @@ void zizagtraversal(struct Node* root)
 	currentlevel.push(root); 
 	
 	// if null then return 
+	currentlevel.push(root);
 	
 	stack<struct Node*> currentlevel; 
 	stack<struct Node*> nextlevel; 
