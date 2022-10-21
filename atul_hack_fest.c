@@ -6,8 +6,8 @@ void zizagtraversal(struct Node* root)
 { 
 	
 
-	// check if stack is empty 
-	bool lefttoright = true; 
+	// check if stack is empty if not assign false 
+	bool lefttoright = flase; 
 	while (!currentlevel.empty()) { 
 
 		// pop out of stack 
