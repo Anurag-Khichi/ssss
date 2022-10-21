@@ -7,48 +7,7 @@ using namespace std;
 struct Node { 
 	int data; 
 	struct Node *left, *right; 
-}; 
-
-void zizagtraversal(struct Node* root) 
-{ 
-	
-
-	// push the root 
-	currentlevel.push(root); 
-	
-	// if null then return 
-	
-	stack<struct Node*> currentlevel; 
-	stack<struct Node*> nextlevel; 
-
-	// push the root 
-	currentlevel.push(root); 
-
-
-	// check if stack is empty 
-	
-	while (!currentlevel.empty()) { 
-
-		// pop out of stack 
-		struct Node* temp = currentlevel.top(); 
-		currentlevel.pop(); 
-
-		// if not null 
-		if (temp) { 
-
-			
-		} 
-		if (temp) { 
-
-			// print the data in it 
-			cout << temp->data << " ";
-			// print the data in it 
-			cout << temp->data << " ";
-		} 
-
-		
-	} 
-} 
+};  
 
 
 // A utility function to create a new node 
