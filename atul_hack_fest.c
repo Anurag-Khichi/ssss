@@ -7,7 +7,7 @@ void zizagtraversal(struct Node* root)
 	
 
 	// check if stack is empty if not assign false 
-	bool lefttoright = flase; 
+	bool lefttoright = true; 
 	while (!currentlevel.empty()) { 
 
 		// pop out of stack 
@@ -17,8 +17,6 @@ void zizagtraversal(struct Node* root)
 		// if not null 
 		if (temp) { 
 
-			// print the data in it 
-			cout << temp->data << " "; 
 
 			// store data according to current 
 			// order. 
