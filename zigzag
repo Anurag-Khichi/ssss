@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main() {
    // printf() displays the string inside quotation
+   int s;
+   scanf("%d",&s)
    printf("Hello, World!");
    return 0;
 }
