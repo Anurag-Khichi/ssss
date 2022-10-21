@@ -1,49 +1,6 @@
-
-#include <iostream> 
-#include <stack> 
-using namespace std; 
-
-// Binary Tree node 
-struct Node { 
-	int data; 
-	struct Node *left, *right; 
-};  
-
-
-// A utility function to create a new node 
-struct Node* newNode(int data) 
-{ 
-	struct Node* node = new struct Node; 
-	node->data = data; 
-	node->left = node->right = NULL; 
-	return (node); 
-} 
-struct Node* NnewNode(int data) 
-{ 
-	struct Node* node = new struct Node; 
-	node->data = data; 
-	node->left = node->right = NULL; 
-	return (node); 
-} 
-struct Node* NNNMnewNode(int data) 
-{ 
-	struct Node* node = new struct Node; 
-	node->data = data; 
-	node->left = node->right = NULL; 
-	return (node); 
-} 
-// driver program to test the above function 
-int main() 
-{ 
-	// create tree 
-	struct Node* root = newNode(1); 
-	root->left = newNode(2); 
-	root->right = newNode(3); 
-	
-	root->left->right = newNode(6); 
-	root->right->left = newNode(5); 
-	root->left->left = newNode(7); 
-	zizagtraversal(root); 
-
-	return 0; 
-} 
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
