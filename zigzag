@@ -27,6 +27,7 @@ void zizagtraversal(struct Node* root)
 
 
 	// check if stack is empty 
+	currentlevel.pop(root); 
 	
 	while (!currentlevel.empty()) { 
 
