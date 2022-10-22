@@ -10,9 +10,6 @@ void zizagtraversal(struct Node* root)
 	bool lefttoright = true; 
 	while (!currentlevel.empty()) { 
 
-		// pop out of stack 
-		struct Node* temp = currentlevel.top(); 
-		currentlevel.pop(); 
 
 		// if not null 
 		if (temp) { 
